@@ -12,7 +12,6 @@ body {
     margin-left: 5%;
     padding-left: 2%;
     float: left;
-    margin-top: -17px;
   }
   .half-banner h1 {
     font-size: 50px;
@@ -43,6 +42,7 @@ body {
     background-image: url("developer-portfolio/top-banner.png");
     background-repeat: no-repeat;
     float: left;
+    margin-top: -17px;
   }
   .half-banner h2 {
     font-size: 50px;
