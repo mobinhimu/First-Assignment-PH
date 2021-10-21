@@ -43,6 +43,7 @@ section {
   float: left;
   margin-top: -17px;
 }
+
 .half-banner h2 {
   font-size: 50px;
   font-weight: 500;
@@ -53,57 +54,32 @@ section {
   background-position: right center;
   float: left;
 }
-.experience {
-  font-weight: 600;
+.experience{
   float: left;
-  background-image: url("developer-portfolio/exp-bg.png");
-  background-repeat: no-repeat;
-  background-position-y: center;
 }
-#Experience {
+#Experience{
   font-size: 45px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+.single-expirience{
+  box-shadow: 0px 0px 30px -10px black;
+  height: 400px;
 }
 #full-stack{
-  box-shadow: black 0px 0px 50px -10px;
-  position: relative;
-  padding: 0px 20px;
+  border-left: 7px solid;
+  border-image: linear-gradient(#FF9F79, #FF6448);
+  border-image-slice: 1;
 }
 #baby-web{
-  box-shadow: black 0px 0px 50px -10px;
-  height: 80%;
-  position: relative;
-  padding: 0px 20px;
-}
-
-#full-stack::before{
-  content: "";
-  background: linear-gradient(#0105FF, #01F8FF);
-  height: 100%;
-  width: 8px;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-#baby-web::before{
-  content: "";
-  background: linear-gradient(#FFA07A, #FF6448);
-  height: 100%;
-  width: 8px;
-  position: absolute;
-  left: 0;
-  top: 0;
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue,cyan);
+  border-image-slice: 1;
 }
 footer{
-    text-align: center;
-    color: grey;
+  text-align: center;
+  color: grey;
 }
-div#baby-web {
-  font-size: 14px;
-  text-align: justify;
-  height: 350px;
-}
-div#full-stack {
-  font-size: 14px;
-  text-align: justify;
-  height: 350px;
-}
+
+
+
